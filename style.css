@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(90, 184, 90);
+}
+.container{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+
+}
+
+h1{
+    font-family:fantasy;
+    background-color: rgba(212, 253, 193, 0.973);
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border: solid green 2px;
+    box-shadow: 3px 3px green; 
+    width: 20rem;
+    transition: all 1s;
+}
+
+
+img{
+    width: 250px;
+    height: 200px;
+    margin: 10px;
+    transition: all 1s;
+}
+
+img:hover
+{
+    transform: scale(1.1);
+}
+
+h1:hover
+{
+    transform:rotate(8deg);
+    background-color: rgb(41, 161, 41);
+}
